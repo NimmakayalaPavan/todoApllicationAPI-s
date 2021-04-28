@@ -1,0 +1,13 @@
+GET http://localhost:3001/todos/?category=WORK&status=DONE
+###
+
+GET http://localhost:3001/todos/3
+###
+
+GET http://localhost:3001/todos/?priority=LOW
+###
+
+GET http://localhost:3001/todos/?search_q=Buy
+###
+
+GET http://localhost:3001/todos/?category=LEARNING&priority=HIGH
